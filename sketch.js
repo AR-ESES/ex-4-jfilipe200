@@ -7,7 +7,7 @@ function setup() {
   stroke(255);
   strokeWeight(2);
   noFill();
-  background(0);
+  background(69);
 }
 
 function draw() {
