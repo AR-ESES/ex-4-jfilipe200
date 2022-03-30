@@ -12,14 +12,14 @@ function setup() {
 
 function draw() {
   
-  for (let i = 1; i < espLarg; i++) {
+ for (let i = 1; i < espLarg; i++) {
     for (let j = 1; j < espAltura; j++) {
       push();
       translate(i * width / espLarg,j * height / espAltura)
       translate(-40,-50);
       scale(0.7);
       circle(40, 50, height / espAltura);
-      line(50,50,40,100);
+      line(40,50,40,100);
       pop();
     }
   }
