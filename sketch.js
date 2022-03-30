@@ -2,7 +2,7 @@ let espLarg = 20;
 let espAltura = 20;
 
 function setup() {
-  createCanvas(100, 100);
+  createCanvas(windowWidth, windowHeight);
   background(0);
   stroke(255);
   strokeWeight(2);
