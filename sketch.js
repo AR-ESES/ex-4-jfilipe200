@@ -19,7 +19,7 @@ function draw() {
       translate(-40,-50);
       scale(0.7);
       circle(40, 50, height / espAltura);
-      line(40,50,40,100);
+      line(50,50,40,100);
       pop();
     }
   }
