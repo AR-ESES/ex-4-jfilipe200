@@ -1,5 +1,5 @@
-let espLarg = 20;
-let espAltura = 20;
+let espLarg = 40;
+let espAltura = 40;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
