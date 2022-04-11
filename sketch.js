@@ -3,8 +3,7 @@ let espAltura = 20;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  colorMode(HSB);
-  background(255, 204, 100);
+  background('red');
   stroke(255);
   strokeWeight(2);
   noFill();
